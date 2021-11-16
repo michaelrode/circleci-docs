@@ -2,7 +2,6 @@
 ///////////////////////////////////////////////////////////////////////////////
 
 $zindex-navbar-fixed: 1030;
-$blue-darker: #337ab7;
 $white: #FFFFFF;
 $gray: #D8D8D8;
 $black: #161616;
@@ -211,7 +210,7 @@ $btn-selected-blue: #004A95;
   }
 
   --link-color: #{$gray-dark};
-  --link-color-hover: #{$blue-darker};
+  --link-color-hover: #{$btn-hover-blue;
 
   display: flex;
   align-items: center;
@@ -224,7 +223,7 @@ $btn-selected-blue: #004A95;
   }
 
   &:hover {
-    color: $blue-darker;
+    color: $btn-hover-blue;
   }
   .external-icon {
     margin-left: 4px;
